@@ -8,7 +8,7 @@ const Main = () => {
     <div className="card-container">
       {data.map((item) => {
         return (
-          <Card {...item}/>
+          <Card {...item} key={item.index}/>
         );
       })}
     </div>

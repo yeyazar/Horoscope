@@ -1,11 +1,11 @@
 import "./Navbar.scss";
-import logo from "../../helpers/logo.png"
+import logo from "../../helpers/logo.png";
 
 const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="logo">
-        <img src={logo} alt=""  width="100px" />
+        <img src={logo} alt="" />
       </div>
 
       <div className="links">
